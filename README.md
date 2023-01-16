@@ -1,15 +1,15 @@
 <h1 align="center">Pay</h1>
 
 <p align="center">
-<a href="https://scrutinizer-ci.com/g/yansongda/pay/?branch=master"><img src="https://scrutinizer-ci.com/g/yansongda/pay/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
-<a href="https://scrutinizer-ci.com/g/yansongda/pay/build-status/master"><img src="https://scrutinizer-ci.com/g/yansongda/pay/badges/build.png?b=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/v/stable" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/v/unstable" alt="Latest Unstable Version"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/license" alt="License"></a>
+<a href="https://scrutinizer-ci.com/g/huangang/yansongda-pay-v2/?branch=master"><img src="https://scrutinizer-ci.com/g/huangang/yansongda-pay-v2/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<a href="https://scrutinizer-ci.com/g/huangang/yansongda-pay-v2/build-status/master"><img src="https://scrutinizer-ci.com/g/huangang/yansongda-pay-v2/badges/build.png?b=master" alt="Build Status"></a>
+<a href="https://packagist.org/packages/huangang/yansongda-pay-v2"><img src="https://poser.pugx.org/huangang/yansongda-pay-v2/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/huangang/yansongda-pay-v2"><img src="https://poser.pugx.org/huangang/yansongda-pay-v2/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/huangang/yansongda-pay-v2"><img src="https://poser.pugx.org/huangang/yansongda-pay-v2/v/unstable" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/huangang/yansongda-pay-v2"><img src="https://poser.pugx.org/huangang/yansongda-pay-v2/license" alt="License"></a>
 </p>
 
-该文档为 v2.x 版本，如果您想找 v1.x 版本文档，请点击[https://github.com/yansongda/pay/tree/v1.x](https://github.com/yansongda/pay/tree/v1.x)
+该文档为 v2.x 版本，如果您想找 v1.x 版本文档，请点击[https://github.com/huangang/yansongda-pay-v2/tree/v1.x](https://github.com/huangang/yansongda-pay-v2/tree/v1.x)
 
 **注意：v1.x 与 v2.x 版本不兼容**
 
@@ -40,7 +40,7 @@ QQ交流群：690027516
 - PHP 7.0+ (v2.8.0 开始 >= 7.1.3)
 - composer
 
-> php5 请使用 v1.x 版本[https://github.com/yansongda/pay/tree/v1.x](https://github.com/yansongda/pay/tree/v1.x)
+> php5 请使用 v1.x 版本[https://github.com/huangang/yansongda-pay-v2/tree/v1.x](https://github.com/huangang/yansongda-pay-v2/tree/v1.x)
 
 
 ## 支持的支付方法
@@ -125,7 +125,7 @@ QQ交流群：690027516
 
 ## 安装
 ```shell
-composer require yansongda/pay -vvv
+composer require huangang/yansongda-pay-v2 -vvv
 ```
 
 ## 使用说明
