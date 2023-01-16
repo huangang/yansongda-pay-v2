@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Huangang\\YansongdaPayV2\\Pay\\": "src"
+            "Huangang\\YansongdaPayV2\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Huangang\\YansongdaPayV2\\Pay\\Tests\\": "tests"
+            "Huangang\\YansongdaPayV2\\Tests\\": "tests"
         }
     },
     "license": "MIT"
