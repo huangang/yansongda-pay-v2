@@ -1,12 +1,12 @@
 <?php
 
-namespace YansongdaV2\Pay\Gateways\Wechat;
+namespace Huangang\YansongdaPayV2\Pay\Gateways\Wechat;
 
-use YansongdaV2\Pay\Exceptions\GatewayException;
-use YansongdaV2\Pay\Exceptions\InvalidArgumentException;
-use YansongdaV2\Pay\Exceptions\InvalidSignException;
-use YansongdaV2\Pay\Gateways\Wechat;
-use YansongdaV2\Supports\Collection;
+use Huangang\YansongdaPayV2\Pay\Exceptions\GatewayException;
+use Huangang\YansongdaPayV2\Pay\Exceptions\InvalidArgumentException;
+use Huangang\YansongdaPayV2\Pay\Exceptions\InvalidSignException;
+use Huangang\YansongdaPayV2\Pay\Gateways\Wechat;
+use Huangang\YansongdaPayV2\Supports\Collection;
 
 class MiniappGateway extends MpGateway
 {

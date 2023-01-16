@@ -1,9 +1,9 @@
 <?php
 
-namespace YansongdaV2\Pay\Contracts;
+namespace Huangang\YansongdaPayV2\Pay\Contracts;
 
 use Symfony\Component\HttpFoundation\Response;
-use YansongdaV2\Supports\Collection;
+use Huangang\YansongdaPayV2\Supports\Collection;
 
 interface GatewayInterface
 {

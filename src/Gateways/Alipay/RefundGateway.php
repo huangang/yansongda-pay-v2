@@ -1,6 +1,6 @@
 <?php
 
-namespace YansongdaV2\Pay\Gateways\Alipay;
+namespace Huangang\YansongdaPayV2\Pay\Gateways\Alipay;
 
 class RefundGateway
 {

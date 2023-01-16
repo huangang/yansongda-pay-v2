@@ -1,6 +1,6 @@
 <?php
 
-namespace YansongdaV2\Pay\Events;
+namespace Huangang\YansongdaPayV2\Pay\Events;
 
 class ApiRequesting extends Event
 {

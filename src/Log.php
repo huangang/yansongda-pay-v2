@@ -1,8 +1,8 @@
 <?php
 
-namespace YansongdaV2\Pay;
+namespace Huangang\YansongdaPayV2\Pay;
 
-use YansongdaV2\Supports\Log as BaseLog;
+use Huangang\YansongdaPayV2\Supports\Log as BaseLog;
 
 /**
  * @method static void emergency($message, array $context = array())

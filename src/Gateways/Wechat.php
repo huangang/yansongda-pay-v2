@@ -1,23 +1,23 @@
 <?php
 
-namespace YansongdaV2\Pay\Gateways;
+namespace Huangang\YansongdaPayV2\Pay\Gateways;
 
 use Exception;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use YansongdaV2\Pay\Contracts\GatewayApplicationInterface;
-use YansongdaV2\Pay\Contracts\GatewayInterface;
-use YansongdaV2\Pay\Events;
-use YansongdaV2\Pay\Exceptions\GatewayException;
-use YansongdaV2\Pay\Exceptions\InvalidArgumentException;
-use YansongdaV2\Pay\Exceptions\InvalidGatewayException;
-use YansongdaV2\Pay\Exceptions\InvalidSignException;
-use YansongdaV2\Pay\Gateways\Wechat\Support;
-use YansongdaV2\Pay\Log;
-use YansongdaV2\Supports\Collection;
-use YansongdaV2\Supports\Config;
-use YansongdaV2\Supports\Str;
+use Huangang\YansongdaPayV2\Pay\Contracts\GatewayApplicationInterface;
+use Huangang\YansongdaPayV2\Pay\Contracts\GatewayInterface;
+use Huangang\YansongdaPayV2\Pay\Events;
+use Huangang\YansongdaPayV2\Pay\Exceptions\GatewayException;
+use Huangang\YansongdaPayV2\Pay\Exceptions\InvalidArgumentException;
+use Huangang\YansongdaPayV2\Pay\Exceptions\InvalidGatewayException;
+use Huangang\YansongdaPayV2\Pay\Exceptions\InvalidSignException;
+use Huangang\YansongdaPayV2\Pay\Gateways\Wechat\Support;
+use Huangang\YansongdaPayV2\Pay\Log;
+use Huangang\YansongdaPayV2\Supports\Collection;
+use Huangang\YansongdaPayV2\Supports\Config;
+use Huangang\YansongdaPayV2\Supports\Str;
 
 /**
  * @method Response         app(array $config)          APP 支付

@@ -1,6 +1,6 @@
 <?php
 
-namespace YansongdaV2\Pay\Exceptions;
+namespace Huangang\YansongdaPayV2\Pay\Exceptions;
 
 class InvalidSignException extends Exception
 {

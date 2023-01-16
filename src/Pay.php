@@ -1,17 +1,17 @@
 <?php
 
-namespace YansongdaV2\Pay;
+namespace Huangang\YansongdaPayV2\Pay;
 
 use Exception;
-use YansongdaV2\Pay\Contracts\GatewayApplicationInterface;
-use YansongdaV2\Pay\Exceptions\InvalidGatewayException;
-use YansongdaV2\Pay\Gateways\Alipay;
-use YansongdaV2\Pay\Gateways\Wechat;
-use YansongdaV2\Pay\Listeners\KernelLogSubscriber;
-use YansongdaV2\Supports\Config;
-use YansongdaV2\Supports\Log;
-use YansongdaV2\Supports\Logger;
-use YansongdaV2\Supports\Str;
+use Huangang\YansongdaPayV2\Pay\Contracts\GatewayApplicationInterface;
+use Huangang\YansongdaPayV2\Pay\Exceptions\InvalidGatewayException;
+use Huangang\YansongdaPayV2\Pay\Gateways\Alipay;
+use Huangang\YansongdaPayV2\Pay\Gateways\Wechat;
+use Huangang\YansongdaPayV2\Pay\Listeners\KernelLogSubscriber;
+use Huangang\YansongdaPayV2\Supports\Config;
+use Huangang\YansongdaPayV2\Supports\Log;
+use Huangang\YansongdaPayV2\Supports\Logger;
+use Huangang\YansongdaPayV2\Supports\Str;
 
 /**
  * @method static Alipay alipay(array $config) 支付宝
