@@ -1,6 +1,6 @@
 <?php
 
-namespace Huangang\YansongdaPayV2\Pay;
+namespace Huangang\YansongdaPayV2;
 
 use Huangang\YansongdaPayV2\Supports\Log as BaseLog;
 

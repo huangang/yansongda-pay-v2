@@ -1,6 +1,6 @@
 <?php
 
-namespace Huangang\YansongdaPayV2\Pay;
+namespace Huangang\YansongdaPayV2;
 
 use Exception;
 use Huangang\YansongdaPayV2\Pay\Contracts\GatewayApplicationInterface;
